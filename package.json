@@ -1,0 +1,27 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Knock off of Amazon :)",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^3.2.3",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonriddick/bamazon.git"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "Jon Riddick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonriddick/bamazon/issues"
+  },
+  "homepage": "https://github.com/jonriddick/bamazon#readme"
+}
