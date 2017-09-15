@@ -1,7 +1,3 @@
-# bamazon
-bamazon is apparently a knock off of Amazon :)
-
-
 # BAMAZON
 
 This is an Amazon-like storefront with MySQL. The app takes in orders from customers and depletes stock from the store's inventory. As a bonus task, you can program your app to track product sales across your store's departments and then provide a summary of the highest-grossing departments in the store.
@@ -36,34 +32,9 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [Sublime](http://www.google.com) - The web framework used
-* [MYSQL](https://www.google.com) - Dependency Management
+* [MYSQL](https://www.google.com) - Framework
 
 ## Authors
 
