@@ -1,4 +1,4 @@
-var mysql = require("mysql");
+var mysql = require("mysql"); 
 var inquirer = require("inquirer");
 
 var connection = mysql.createConnection({
@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
   user: "root",
 
   // Your password
-  password: "Sundrop7@",
+  password: "",
   database: "bamazon"
 });
 
@@ -26,17 +26,17 @@ function start() {
   inquirer
 	.prompt([
 	      {
-	        name: "number",
+	        name: "id",
 	        type: "input",
 	        message: "What is the item # of the product you'd like to purchase?"
 	      },
 	      {
-	        name: "category",
+	        name: "quantity",
 	        type: "input",
 	        message: "How many would you like to purchase?"
 	      }]).then(function(answer) {
       // when finished prompting, insert a new item into the db with that info
-            console.log("You owe: $" + answer.number);
+            console.log(answer.id + answer.quantity);
 
 
 
